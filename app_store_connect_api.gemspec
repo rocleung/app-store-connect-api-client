@@ -3,20 +3,19 @@
 require_relative "lib/app_store_connect_api/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "app_store_connect_api_client"
+  spec.name = "rocleung_as_api_client"
   spec.version = AppStoreConnectApi::VERSION
-  spec.authors = ["Zoltan Ormandi", "Miklos Boros"]
-  spec.email = ["zoltan.ormandi@gmail.com", "miklos.boros@bitrise.io"]
+  spec.authors = ["rocleung"]
+  spec.email = ["rocleung@live.com"]
 
   spec.summary = "A Ruby client for the App Store Connect API"
   spec.description = "A thin Ruby wrapper around the App Store Connect API to provide a more convenient way of accessing App Store Connect."
-  spec.homepage = "https://github.com/bitrise-io/app-store-connect-api-client"
+  spec.homepage = "https://github.com/rocleung/app-store-connect-api-client"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.9"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/bitrise-io/app-store-connect-api-client"
-  spec.metadata["changelog_uri"] = "https://github.com/bitrise-io/app-store-connect-api-client/blob/main/CHANGELOG.md"
+
   spec.metadata['rubygems_mfa_required'] = 'true'
 
   # Specify which files should be added to the gem when it is released.
