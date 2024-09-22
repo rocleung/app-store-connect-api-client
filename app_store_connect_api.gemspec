@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "A thin Ruby wrapper around the App Store Connect API to provide a more convenient way of accessing App Store Connect."
   spec.homepage = "https://github.com/bitrise-io/app-store-connect-api-client"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 2.6.9"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/bitrise-io/app-store-connect-api-client"
